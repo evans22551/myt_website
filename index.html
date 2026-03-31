@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ITE 200 E Class Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <img src="multimedia/usted.jpg" class="header-logo">
+            ITE 200 E Class Portal
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="timetable.html">Timetable</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to the ITE 200 E Class Portal</h1>
+            <p>Stay updated with course materials, important announcements, and your class schedule—all in one place.</p>
+            <div class="hero-search">
+                <input type="text" placeholder="Search the site...">
+                <button>Search</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Background image and mask are applied via CSS -->
+        </div>
+    </div>
+
+    <main>
+        <div class="quick-links">
+            <div class="card">
+                <h3>Lecture Notes</h3>
+                <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: #666;">Access all notes from recent classes easily.</p>
+                <a href="resources.html" class="btn">View Notes</a>
+            </div>
+            <div class="card">
+                <h3>Timetable</h3>
+                <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: #666;">Check the schedule for this semester.</p>
+                <a href="timetable.html" class="btn">View Timetable</a>
+            </div>
+            <div class="card">
+                <h3>Contact Course Rep</h3>
+                <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: #666;">Have a question? Reach out to the class rep.</p>
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> University IT Class. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/aamustedk/?_rdc=1&_rdr#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/aamusted_gh/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

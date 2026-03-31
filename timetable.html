@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetables - ITE 200 E Class Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .timetable-section {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .timetable-block {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .timetable-img {
+            max-width: 100%;
+            height: auto;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            min-height: 250px;
+            display: inline-block;
+            margin: 1rem auto;
+        }
+        .placeholder-text {
+            font-style: italic;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <img src="multimedia/usted.jpg" class="header-logo">
+            ITE 200 E Class Portal
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="timetable.html" class="active">Timetable</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="text-align: center; color:#722F37; font-style: italic">Class Timetables</h2>
+        <br>
+        <p style="text-align: center;">View our current class schedule and the end of semester exam timetable.</p>
+        
+        <section class="timetable-section">
+            <div class="timetable-block">
+                <h3>Lectures Timetable</h3>
+                <br>
+            
+                <img src="multimedia/timetable.jpeg" alt="Lectures Timetable Placeholder" class="timetable-img">
+                <p class="placeholder-text">Lectures Timetable</p>
+            </div>
+            
+            <div class="timetable-block">
+                <h3>End of Semester Timetable</h3>
+                <br>
+
+                <img src="multimedia/exam_timetable.jpeg" alt="Exams Timetable Placeholder" class="timetable-img">
+                <p class="placeholder-text">End of Semester Examination Timetable</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> USTED ITE 200 E Class Portal. All rights reserved.</p>
+         <div class="social-icons">
+            <a href="https://web.facebook.com/aamustedk/?_rdc=1&_rdr#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/aamusted_gh/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
